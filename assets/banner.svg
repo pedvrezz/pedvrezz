@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Pedro's animated GitHub profile banner</title>
+  <desc id="desc">An animated dark network infrastructure banner with moving data packets.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/><stop offset="52%" stop-color="#0b1530"/><stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".26"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <path id="routeA" d="M70 245 C220 210 275 120 430 135 S690 230 850 110 S1050 78 1140 120"/>
+    <path id="routeB" d="M70 95 C220 145 330 245 500 205 S790 80 930 170 S1080 235 1150 205"/>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="760" cy="145" r="250" fill="url(#glow)">
+    <animate attributeName="r" values="220;270;220" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="#38bdf8" stroke-opacity=".27" stroke-width="2"><use href="#routeA"/><use href="#routeB"/></g>
+  <g fill="#38bdf8" filter="url(#softGlow)">
+    <circle r="5"><animateMotion dur="5.5s" repeatCount="indefinite"><mpath href="#routeA"/></animateMotion></circle>
+    <circle r="4" fill="#a78bfa"><animateMotion dur="7s" begin="-2s" repeatCount="indefinite"><mpath href="#routeB"/></animateMotion></circle>
+    <circle r="3.5" fill="#22d3ee"><animateMotion dur="8.5s" begin="-5s" repeatCount="indefinite"><mpath href="#routeA"/></animateMotion></circle>
+  </g>
+  <g stroke="#60a5fa" stroke-width="2" fill="#0f172a">
+    <g transform="translate(70 245)"><circle r="12"/><circle r="4" fill="#38bdf8" stroke="none"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle></g>
+    <g transform="translate(850 110)"><circle r="13"/><circle r="4" fill="#22d3ee" stroke="none"><animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/></circle></g>
+    <g transform="translate(1150 205)"><rect x="-13" y="-13" width="26" height="26" rx="5"/><circle r="4" fill="#38bdf8" stroke="none"><animate attributeName="opacity" values=".25;1;.25" dur="1.9s" repeatCount="indefinite"/></circle></g>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="70" y="105" fill="#e2e8f0" font-size="62" font-weight="800" letter-spacing="4">PEDRVEZZ</text>
+    <text x="73" y="145" fill="#38bdf8" font-size="22" font-weight="600" letter-spacing="2">NETWORKS • AUTOMATION • OPEN SOURCE</text>
+    <text x="73" y="184" fill="#94a3b8" font-size="18">C++ · C# · Arduino Leonardo · Infrastructure as Code</text>
+    <g transform="translate(73 215)">
+      <rect width="475" height="52" rx="10" fill="#020617" fill-opacity=".76" stroke="#334155"/>
+      <circle cx="22" cy="19" r="5" fill="#ef4444"/><circle cx="39" cy="19" r="5" fill="#f59e0b"/><circle cx="56" cy="19" r="5" fill="#22c55e"/>
+      <text x="20" y="41" fill="#86efac" font-family="Consolas, monospace" font-size="15">$ build practical infrastructure tools</text>
+      <rect x="430" y="28" width="9" height="16" fill="#86efac"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#38bdf8" stroke-opacity=".22"/>
+</svg>
