@@ -2,23 +2,45 @@ Tech stack
 
 <div align="center">
 
+<p><strong>Infrastructure & Virtualization</strong></p>
 
+<img src="https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox VE" />
+<img src="https://img.shields.io/badge/Ubuntu_Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu Server" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111827" alt="Linux" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/WSL2-0F172A?style=for-the-badge&logo=windows&logoColor=white" alt="WSL2" />
 
+<p><strong>Networking, Security & NAC</strong></p>
 
+<img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logoColor=white" alt="pfSense" />
+<img src="https://img.shields.io/badge/PacketFence-2563EB?style=for-the-badge" alt="PacketFence" />
+<img src="https://img.shields.io/badge/NAC-0F766E?style=for-the-badge" alt="NAC" />
+<img src="https://img.shields.io/badge/Samba_AD-1F2937?style=for-the-badge&logo=samba&logoColor=white" alt="Samba AD" />
+<img src="https://img.shields.io/badge/VLANs-7C3AED?style=for-the-badge" alt="VLANs" />
+<img src="https://img.shields.io/badge/DHCP-0369A1?style=for-the-badge" alt="DHCP" />
+<img src="https://img.shields.io/badge/802.1Q-334155?style=for-the-badge" alt="802.1Q" />
+<img src="https://img.shields.io/badge/UniFi-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white" alt="UniFi" />
+<img src="https://img.shields.io/badge/TP--Link_JetStream-4ACBD6?style=for-the-badge&logo=tplink&logoColor=white" alt="TP-Link JetStream" />
 
+<p><strong>Automation & Infrastructure as Code</strong></p>
 
+<img src="https://img.shields.io/badge/IaC-0F172A?style=for-the-badge&logo=yaml&logoColor=38BDF8" alt="Infrastructure as Code" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+<img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 
+<p><strong>Development & Hardware</strong></p>
 
-
-
-
-
-
-
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/Arduino_Leonardo-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino Leonardo" />
+<img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
 
 </div>
-
-Featured projects
+## Featured projects
 
 <table>
   <tr>
