@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile.webp" width="150" alt="Pedro anime avatar" />
+<img src="./profile.webp" width="150" alt="Pedro anime avatar" />
 
 # Pedro
 
