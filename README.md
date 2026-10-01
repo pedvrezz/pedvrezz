@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="./assets/profile.webp" width="130" alt="Pedro profile image" />
 
 # Pedro
 
