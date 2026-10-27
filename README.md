@@ -1,212 +1,144 @@
 <div align="center">
 
+Pedro Rezende
+Infrastructure Engineer · Network Engineering · Automation · Software Development
+Designing reliable infrastructure, building useful tools, and turning operational challenges into code.
 
-# Pedro
 
-### Infrastructure • Networking • Automation • Development
-
-<p>
-  <a href="https://github.com/pedvrezz">
-    <img src="https://img.shields.io/badge/GitHub-pedvrezz-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
 
 </div>
 
----
+About me
+I'm a technology professional focused on IT infrastructure, networking, systems administration, automation, and hands-on software engineering. My work connects day-to-day operations with engineering: troubleshooting complex environments, improving service reliability, automating repetitive tasks, and building software that makes infrastructure easier to operate.
 
-## About me
+I work across Windows and Linux environments, network security and segmentation, virtualization, cloud infrastructure, monitoring and incident investigation. I also explore agent-assisted software engineering, with an emphasis on reproducible experiments, human review, testing, and secure changes.
+My approach: understand the problem, gather evidence, automate what makes sense, validate the results, and document the solution.
 
-I work with infrastructure, networking, automation and software development, with a strong focus on practical solutions, homelab environments and tools that simplify repetitive tasks.
+Technology landscape
+Area	Technologies & practices
+Systems & virtualization	Linux, Ubuntu Server, Windows Server, Windows 11, WSL2, Proxmox VE, Docker, Active Directory, Samba AD
+Networking & security	pfSense, routing, VPNs, VLANs, DHCP, DNS, NAT, firewall policy, NAC, PacketFence, network diagnostics
+Cloud & operations	AWS, AWS CLI, EC2 / load-balancing troubleshooting, containers, service health checks, backup and recovery
+Development	Python, Bash, PowerShell, C++, C#, .NET, TypeScript, APIs, SQL, FastAPI
+Automation & delivery	Git, GitHub, GitHub Actions, CI/CD, systemd, configuration validation, Infrastructure as Code concepts
+Observability & quality	TCP/IP analysis, PCAP, incident logs, JSON/CSV reports, test automation, quality gates, technical documentation
+Hardware & integration	Arduino Leonardo, USB HID, device connectivity, hardware troubleshooting
 
-```text
-Focus:
-Infrastructure
-Networking
-Automation
-Monitoring
-Development
-```
-
-## Tech Stack
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Infrastructure & Virtualization
-
-<p>
-<img src="https://img.shields.io/badge/Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox VE"/>
-<img src="https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu Server"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/WSL2-0F172A?style=flat-square&logo=windows&logoColor=white" alt="WSL2"/>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-### Networking & Security
-
-<p>
-<img src="https://img.shields.io/badge/pfSense-212121?style=flat-square" alt="pfSense"/>
-<img src="https://img.shields.io/badge/PacketFence-2563EB?style=flat-square" alt="PacketFence"/>
-<img src="https://img.shields.io/badge/NAC-0F766E?style=flat-square" alt="NAC"/>
-<img src="https://img.shields.io/badge/Samba_AD-1F2937?style=flat-square&logo=samba&logoColor=white" alt="Samba AD"/>
-<img src="https://img.shields.io/badge/VLANs-7C3AED?style=flat-square" alt="VLANs"/>
-<img src="https://img.shields.io/badge/DHCP-0369A1?style=flat-square" alt="DHCP"/>
-<img src="https://img.shields.io/badge/802.1Q-334155?style=flat-square" alt="802.1Q"/>
-<img src="https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white" alt="UniFi"/>
-<img src="https://img.shields.io/badge/TP--Link_JetStream-4ACBD6?style=flat-square&logo=tplink&logoColor=white" alt="TP-Link JetStream"/>
-</p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### Automation & IaC
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
-<img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" alt="YAML"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Infrastructure_as_Code-0F172A?style=flat-square" alt="Infrastructure as Code"/>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-### Development & Hardware
-
-<p>
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#"/>
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"/>
-<img src="https://img.shields.io/badge/Arduino_Leonardo-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino Leonardo"/>
-<img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake"/>
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-## Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [NetForge IaC](https://github.com/pedvrezz/netforge-iac)
-
-Network source of truth for validating VLANs, subnets, gateways and DHCP pools, with generation of infrastructure configuration and documentation.
-
-`Python` `Networking` `IaC`
-
-</td>
-<td width="50%" valign="top">
-
-### [Lantern C++](https://github.com/pedvrezz/lantern-cpp)
-
-Multithreaded TCP service inventory for private IPv4 networks, with table, JSON and CSV exports.
-
-`C++` `CMake` `TCP`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [InfraPulse .NET](https://github.com/pedvrezz/infrapulse-dotnet)
-
-Availability monitor for websites, APIs and TCP ports, with JSON and Prometheus-compatible output.
-
-`C#` `.NET 8` `Monitoring`
-
-</td>
-<td width="50%" valign="top">
-
-### [Leonardo DeskPad](https://github.com/pedvrezz/leonardo-deskpad)
-
-Four-button USB macro pad for Arduino Leonardo with debounce, short/long presses and a physical enable switch.
-
-`Arduino` `C++` `USB HID`
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
-[View all repositories](https://github.com/pedvrezz?tab=repositories)
+
+
+
+
+
+
+
+
+
+
 
 </div>
 
----
+Selected open-source projects
+Network engineering & diagnostics
+Project	What it does	Stack
+NetForge IaC	Validates network inventory (VLANs, subnets, gateways and DHCP ranges) and helps generate configuration/documentation.	Python · IaC
+PacketLens	Offline classic-PCAP analyzer summarizing Ethernet/IPv4, TCP/UDP/ICMP, ports, talkers and DNS queries.	C++ · CMake
+Lantern	Multithreaded TCP service inventory for private IPv4 networks, with tabular, JSON and CSV output.	C++ · Networking
+Subnet Manager API	ASP.NET Core API for IPv4 networks, VLANs, reservations and conflicting-address validation.	C# · ASP.NET Core
+Topology Mapper	Produces Mermaid, Graphviz and JSON topology representations from structured inventory or neighbor tables.	C# · .NET
+WiFi Audit Report	Converts wireless survey CSV exports into HTML/JSON diagnostics on signal, retries and channel utilization.	Python · Reporting
 
-## GitHub Stats
 
+Monitoring, operations & recovery
+Project	What it does	Stack
+InfraPulse	Availability checks for HTTP endpoints, APIs and TCP services with JSON and Prometheus-compatible output.	C# · .NET 8
+Windows Network Watcher	Monitors gateway, internet connectivity and DNS; records structured incidents for troubleshooting.	C# · .NET 8
+Homelab Backup Manager	Compressed configuration backups with SHA-256 verification, retention and controlled restore.	Python · Backup
+
+
+Software, AI tooling & hardware
+Project	What it does	Stack
+Claim Verifier	An AI-oriented verification skill designed to distinguish evidence, inference and unverified claims.	Python · AI tooling
+Remédio Aberto	Local-first project for public consultation of official Brazilian medication data.	TypeScript · Data
+Leonardo DeskPad	Four-key USB macro pad with debounce, short/long presses and a physical enable switch.	Arduino · C++ · USB HID
+Arduino Network Control Panel	Hardware/software experimentation at the intersection of device controls and networking.	Arduino · Integration
+
+
+Explore all public repositories
+Engineering work & ongoing initiatives
+Some of my work takes place in private repositories or operational environments. The summaries below describe engineering domains and approaches, not public source-code availability or production claims.
+<details>
+<summary><strong>AI-assisted engineering & Hermes Agent</strong></summary>
+
+
+I investigate supervised development workflows involving an AI coding agent, structured task execution, code review and evidence-based validation. Topics include:
+- Role separation between implementation, technical review and human authorization.
+- Isolated experimentation, regression checks and reusable engineering skills.
+- Safe handling of errors, recovery analysis and structured technical handoffs.
+- Knowledge organization, architecture decisions and quality gates.
+The goal is measurable, auditable assistance, not uncontrolled automation.
+</details>
+
+<details>
+<summary><strong>Operational Data Lake & quality engineering</strong></summary>
+
+
+A local research workflow for evaluating agent execution and tool behavior, using session-derived signals, validation rules, recovery analysis, reports and synthetic test fixtures. The architecture separates internal operational data from publishable documentation and sanitized examples.
+</details>
+
+<details>
+<summary><strong>Sindy — service and condominium management software</strong></summary>
+
+
+Development and operational experience with a web application using FastAPI, PostgreSQL, SQLAlchemy, Alembic and CI/CD practices, including deployment workflows, health checks, database migrations and backup validation.
+</details>
+
+<details>
+<summary><strong>RECAELJ — business management system</strong></summary>
+
+
+Work on administrative software covering finance, service orders, inventory, reporting and controlled access, including integration requirements for Brazilian electronic service invoicing.
+</details>
+
+<details>
+<summary><strong>Real-world infrastructure operations</strong></summary>
+
+
+Technical troubleshooting and improvement work across pfSense, multi-WAN networks, VPN routing, Windows and Linux administration, Active Directory, AWS load balancers and TLS certificates, container environments, backup planning and device connectivity. Operational addresses, company-specific configuration and confidential data are intentionally omitted.
+</details>
+
+How I work
+Observe & diagnose
+        |
+        v
+Collect evidence and reproduce
+        |
+        v
+Design a safe, testable change
+        |
+        v
+Implement & validate
+        |
+        v
+Document, monitor & improve
+I favor incremental changes, least privilege, explicit verification, meaningful logs, rollback planning and practical documentation. For AI-assisted engineering, I keep human approval in the loop for consequential actions.
+GitHub activity
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pedvrezz&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=transparent&rank_icon=github" alt="Pedro GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=pedvrezz&show_icons=true&hide_border=true&theme=transparent" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedvrezz&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="165" alt="Most used languages in public repositories" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedvrezz&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Most used languages"/>
+<img src="https://streak-stats.demolab.com?user=pedvrezz&theme=transparent&hide_border=true" alt="GitHub contribution streak" />
 
 </div>
 
----
-
-## Current Focus
-
-```yaml
-infrastructure:
-  - virtualization
-  - linux servers
-  - docker
-  - network services
-
-networking:
-  - vlans
-  - nac
-  - firewall
-  - monitoring
-
-automation:
-  - python
-  - bash
-  - github actions
-  - infrastructure as code
-
-development:
-  - c++
-  - c#
-  - .net
-  - arduino
-```
-
----
-
-## What I like to build
-
-- Infrastructure tools that reduce manual work
-- Network automation and validation utilities
-- Monitoring and observability solutions
-- Small hardware projects and integrations
-- Practical tools for real-world problems
-
----
-
+<sub>Note: third-party statistics widgets depend on external services and may occasionally be unavailable. Language percentages represent repository metadata, not proficiency.</sub>
 <div align="center">
 
-### Build. Automate. Monitor. Improve.
+Build systems. Solve problems. Automate responsibly.
+Infrastructure · Networking · Software · AI-assisted engineering
 
-<sub>Infrastructure, networking and code.</sub>
-
+Repositories · GitHub profile
 </div>
