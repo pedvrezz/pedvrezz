@@ -1,6 +1,6 @@
 <div align="center">
 
-Pedro Rezende
+Pedro 
 Infrastructure Engineer · Network Engineering · Automation · Software Development
 Designing reliable infrastructure, building useful tools, and turning operational challenges into code.
 
