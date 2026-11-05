@@ -1,144 +1,132 @@
 <div align="center">
 
-Pedro 
-Infrastructure Engineer · Network Engineering · Automation · Software Development
-Designing reliable infrastructure, building useful tools, and turning operational challenges into code.
+# Pedro
 
+### Infrastructure Engineering · Network Security · Automation · Software Development
 
+**I design reliable infrastructure, investigate complex failures, and build tools that make operations safer and easier to maintain.**
 
-</div>
-
-About me
-I'm a technology professional focused on IT infrastructure, networking, systems administration, automation, and hands-on software engineering. My work connects day-to-day operations with engineering: troubleshooting complex environments, improving service reliability, automating repetitive tasks, and building software that makes infrastructure easier to operate.
-
-I work across Windows and Linux environments, network security and segmentation, virtualization, cloud infrastructure, monitoring and incident investigation. I also explore agent-assisted software engineering, with an emphasis on reproducible experiments, human review, testing, and secure changes.
-My approach: understand the problem, gather evidence, automate what makes sense, validate the results, and document the solution.
-
-Technology landscape
-Area	Technologies & practices
-Systems & virtualization	Linux, Ubuntu Server, Windows Server, Windows 11, WSL2, Proxmox VE, Docker, Active Directory, Samba AD
-Networking & security	pfSense, routing, VPNs, VLANs, DHCP, DNS, NAT, firewall policy, NAC, PacketFence, network diagnostics
-Cloud & operations	AWS, AWS CLI, EC2 / load-balancing troubleshooting, containers, service health checks, backup and recovery
-Development	Python, Bash, PowerShell, C++, C#, .NET, TypeScript, APIs, SQL, FastAPI
-Automation & delivery	Git, GitHub, GitHub Actions, CI/CD, systemd, configuration validation, Infrastructure as Code concepts
-Observability & quality	TCP/IP analysis, PCAP, incident logs, JSON/CSV reports, test automation, quality gates, technical documentation
-Hardware & integration	Arduino Leonardo, USB HID, device connectivity, hardware troubleshooting
-
-
-<div align="center">
-
-
-
-
-
-
-
-
-
-
-
+[![GitHub profile](https://img.shields.io/badge/GitHub-pedvrezz-181717?style=flat-square&logo=github)](https://github.com/pedvrezz)
+[![Repositories](https://img.shields.io/badge/Explore-public_repositories-2563EB?style=flat-square&logo=github)](https://github.com/pedvrezz?tab=repositories)
 
 </div>
 
-Selected open-source projects
-Network engineering & diagnostics
-Project	What it does	Stack
-NetForge IaC	Validates network inventory (VLANs, subnets, gateways and DHCP ranges) and helps generate configuration/documentation.	Python · IaC
-PacketLens	Offline classic-PCAP analyzer summarizing Ethernet/IPv4, TCP/UDP/ICMP, ports, talkers and DNS queries.	C++ · CMake
-Lantern	Multithreaded TCP service inventory for private IPv4 networks, with tabular, JSON and CSV output.	C++ · Networking
-Subnet Manager API	ASP.NET Core API for IPv4 networks, VLANs, reservations and conflicting-address validation.	C# · ASP.NET Core
-Topology Mapper	Produces Mermaid, Graphviz and JSON topology representations from structured inventory or neighbor tables.	C# · .NET
-WiFi Audit Report	Converts wireless survey CSV exports into HTML/JSON diagnostics on signal, retries and channel utilization.	Python · Reporting
+---
 
+## About me
 
-Monitoring, operations & recovery
-Project	What it does	Stack
-InfraPulse	Availability checks for HTTP endpoints, APIs and TCP services with JSON and Prometheus-compatible output.	C# · .NET 8
-Windows Network Watcher	Monitors gateway, internet connectivity and DNS; records structured incidents for troubleshooting.	C# · .NET 8
-Homelab Backup Manager	Compressed configuration backups with SHA-256 verification, retention and controlled restore.	Python · Backup
+I'm an infrastructure and software engineering practitioner working at the intersection of **networks, systems administration, security, automation, and application development**.
 
+My work starts with operational problems: an unstable connection, a failing deployment, an opaque service incident, a backup that needs verification, or a manual process that should become a dependable tool. I investigate the evidence, design a controlled change, test the outcome, and document what comes next.
 
-Software, AI tooling & hardware
-Project	What it does	Stack
-Claim Verifier	An AI-oriented verification skill designed to distinguish evidence, inference and unverified claims.	Python · AI tooling
-Remédio Aberto	Local-first project for public consultation of official Brazilian medication data.	TypeScript · Data
-Leonardo DeskPad	Four-key USB macro pad with debounce, short/long presses and a physical enable switch.	Arduino · C++ · USB HID
-Arduino Network Control Panel	Hardware/software experimentation at the intersection of device controls and networking.	Arduino · Integration
+I work across **Linux and Windows, pfSense, virtualization, AWS, databases, APIs, and network services**. I also experiment with **human-supervised AI coding agents**, emphasizing reproducible results, code review, safe execution, and auditability.
 
+> **Engineering principle:** Observe → Reproduce → Isolate → Change safely → Verify → Document.
 
-Explore all public repositories
-Engineering work & ongoing initiatives
-Some of my work takes place in private repositories or operational environments. The summaries below describe engineering domains and approaches, not public source-code availability or production claims.
+## Engineering focus
+
+| Area | Experience and tools |
+| --- | --- |
+| **Infrastructure & virtualization** | Linux, Ubuntu Server, Windows Server, Proxmox VE, Docker, WSL2, Active Directory, Samba AD |
+| **Network engineering & security** | pfSense, routing, multi-WAN, VLANs, VPNs, DNS, DHCP, NAT, firewall policies, PacketFence, packet analysis |
+| **Cloud & service operations** | AWS, AWS CLI, load balancers, TLS certificate validation, service health, backups and recovery |
+| **Software engineering** | Python, Bash, PowerShell, C++, C#, .NET, TypeScript, FastAPI, SQL, PostgreSQL |
+| **Delivery & quality** | Git, GitHub Actions, CI/CD, migration validation, regression checks, structured logs and documentation |
+| **Hardware experiments** | Arduino Leonardo, USB HID, device integration and troubleshooting |
+
+## Featured engineering work
+
+These projects represent the problems I like solving. Public tools are linked through my [repositories](https://github.com/pedvrezz?tab=repositories); private operational systems are described without exposing their code or infrastructure.
+
+### AI-assisted engineering · Hermes Agent
+
+Exploring how coding agents can contribute to real engineering workflows **without bypassing human authorization or verification**.
+
+- Reusable skills, task handoffs, and structured technical knowledge.
+- Separation of implementation, independent review, and human approval.
+- Regression checks, controlled experiments, failure recovery, and evidence-based conclusions.
+- Operational knowledge indexing and a research-oriented data lake with boundaries between internal data and publishable examples.
+
+**Focus:** Agent orchestration · knowledge systems · testing · engineering governance
+
+### Business software · Sindy & RECAELJ
+
+**Sindy** — Work involving a condominium and service-management web application, including FastAPI, PostgreSQL, SQLAlchemy, Alembic, deployment practices, database migrations, health checks, and verified backup artifacts.
+
+**RECAELJ** — Administrative software covering service orders, inventory, cash flow, financial workflows, reporting, and operational usability. Work includes iterative releases, regression checks, and requirements for Brazilian service-invoicing integration.
+
+**Focus:** Backend engineering · database integrity · deployments · operational workflows
+
+### Infrastructure operations · Diagnosis, recovery, and reliability
+
+Hands-on investigation and maintenance across real environments, including:
+
+- **pfSense and segmentation:** VLAN connectivity, firewall filtering, DHCP behavior, VPN routing, PPPoE and multi-WAN diagnostics.
+- **Network evidence:** TCP/IP traces, packet captures, DNS behavior, connection failures and route verification.
+- **Email infrastructure:** SMTP/TLS analysis, Postfix mail queues, delivery troubleshooting, Proxmox Mail Gateway and Zextras environments.
+- **Cloud security:** AWS load-balancer inspection and certificate-chain / hostname verification.
+- **Recovery:** Server configuration inventories, backup integrity checks, restore planning and technical handoff documentation.
+
+**Focus:** Root-cause analysis · cautious changes · reproducible verification · recovery readiness
+
+## Open-source toolbox
+
+A selection of public engineering tools. Browse the [complete repository list](https://github.com/pedvrezz?tab=repositories) for source code and current project status.
+
+| Project | Purpose | Stack |
+| --- | --- | --- |
+| **NetForge IaC** | Validate VLAN, subnet, gateway, and DHCP inventory; assist configuration and documentation generation | Python |
+| **PacketLens** | Analyze classic PCAP files offline and summarize protocols, ports, talkers, and DNS | C++ · CMake |
+| **Lantern** | Multithreaded TCP service inventory for private IPv4 networks with structured exports | C++ |
+| **InfraPulse** | HTTP/API/TCP availability checks with machine-readable and Prometheus-compatible output | C# · .NET 8 |
+| **Subnet Manager API** | Manage IPv4 networks, VLANs, reservations and address conflict validation | C# · ASP.NET Core |
+| **Homelab Backup Manager** | Configuration backups, SHA-256 integrity verification, retention, and controlled restore | Python |
+
 <details>
-<summary><strong>AI-assisted engineering & Hermes Agent</strong></summary>
+<summary><strong>More networking, monitoring, software, and hardware projects</strong></summary>
 
+| Project | Purpose | Stack |
+| --- | --- | --- |
+| **Topology Mapper** | Structured inventory to Mermaid, Graphviz, and JSON topologies | C# · .NET |
+| **WiFi Audit Report** | Wireless CSV survey diagnostics and HTML/JSON reporting | Python |
+| **Windows Network Watcher** | Gateway, internet, and DNS monitoring with structured incident records | C# · .NET 8 |
+| **Claim Verifier** | Separate evidence, inference, and unverified AI-generated claims | Python |
+| **Remédio Aberto** | Local-first exploration of official Brazilian medication data | TypeScript |
+| **Leonardo DeskPad** | Four-key USB HID macro pad with physical enable control | Arduino · C++ |
+| **Arduino Network Control Panel** | Experiments joining physical controls and network software | Arduino |
 
-I investigate supervised development workflows involving an AI coding agent, structured task execution, code review and evidence-based validation. Topics include:
-- Role separation between implementation, technical review and human authorization.
-- Isolated experimentation, regression checks and reusable engineering skills.
-- Safe handling of errors, recovery analysis and structured technical handoffs.
-- Knowledge organization, architecture decisions and quality gates.
-The goal is measurable, auditable assistance, not uncontrolled automation.
 </details>
 
-<details>
-<summary><strong>Operational Data Lake & quality engineering</strong></summary>
+## How I approach engineering
 
+```text
+01  Observe and collect evidence
+02  Reproduce and isolate the issue
+03  Evaluate risk and define a rollback path
+04  Implement the smallest useful change
+05  Validate functionality and regressions
+06  Document the decision and follow-up checks
+```
 
-A local research workflow for evaluating agent execution and tool behavior, using session-derived signals, validation rules, recovery analysis, reports and synthetic test fixtures. The architecture separates internal operational data from publishable documentation and sanitized examples.
-</details>
+I prioritize **least privilege, repeatability, explicit test results, backup verification, useful logs, and responsible automation**. AI-assisted actions with operational consequences remain subject to human review and authorization.
 
-<details>
-<summary><strong>Sindy — service and condominium management software</strong></summary>
+## GitHub activity
 
-
-Development and operational experience with a web application using FastAPI, PostgreSQL, SQLAlchemy, Alembic and CI/CD practices, including deployment workflows, health checks, database migrations and backup validation.
-</details>
-
-<details>
-<summary><strong>RECAELJ — business management system</strong></summary>
-
-
-Work on administrative software covering finance, service orders, inventory, reporting and controlled access, including integration requirements for Brazilian electronic service invoicing.
-</details>
-
-<details>
-<summary><strong>Real-world infrastructure operations</strong></summary>
-
-
-Technical troubleshooting and improvement work across pfSense, multi-WAN networks, VPN routing, Windows and Linux administration, Active Directory, AWS load balancers and TLS certificates, container environments, backup planning and device connectivity. Operational addresses, company-specific configuration and confidential data are intentionally omitted.
-</details>
-
-How I work
-Observe & diagnose
-        |
-        v
-Collect evidence and reproduce
-        |
-        v
-Design a safe, testable change
-        |
-        v
-Implement & validate
-        |
-        v
-Document, monitor & improve
-I favor incremental changes, least privilege, explicit verification, meaningful logs, rollback planning and practical documentation. For AI-assisted engineering, I keep human approval in the loop for consequential actions.
-GitHub activity
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pedvrezz&show_icons=true&hide_border=true&theme=transparent" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedvrezz&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="165" alt="Most used languages in public repositories" />
-
-<img src="https://streak-stats.demolab.com?user=pedvrezz&theme=transparent&hide_border=true" alt="GitHub contribution streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=pedvrezz&show_icons=true&hide_border=true&theme=transparent" height="160" alt="GitHub activity statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedvrezz&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="160" alt="Languages represented in public repositories" />
 
 </div>
 
-<sub>Note: third-party statistics widgets depend on external services and may occasionally be unavailable. Language percentages represent repository metadata, not proficiency.</sub>
+<sub>These third-party widgets may be unavailable. Language distribution reflects public repository metadata, not an assessment of proficiency.</sub>
+
+---
+
 <div align="center">
 
-Build systems. Solve problems. Automate responsibly.
-Infrastructure · Networking · Software · AI-assisted engineering
+**Build reliable systems. Solve real problems. Automate responsibly.**
 
-Repositories · GitHub profile
+[Explore my repositories](https://github.com/pedvrezz?tab=repositories) · [GitHub profile](https://github.com/pedvrezz)
+
 </div>
