@@ -1,112 +1,70 @@
-Network Engineering & Cloud Infrastructure
 
-Network infrastructure, enterprise environments, cloud architecture, cybersecurity and high-availability solutions.
+# Network Engineering & Infrastructure
 
-Focused on network segmentation, identity management, secure connectivity, infrastructure resilience and advanced troubleshooting.
+Network Engineering • Cloud Infrastructure • Network Security
 
-Network Engineering
+Focused on enterprise networking, infrastructure architecture, identity management, secure connectivity and advanced troubleshooting.
 
-Layer 2 & Layer 3 Networking
+---
 
-TCP/IP, IPv4, CIDR, VLSM & Subnetting
+### Network Engineering
 
-VLANs, 802.1Q Trunking & Inter-VLAN Routing
+- L2/L3 Infrastructure · TCP/IP · CIDR · VLSM
+- VLAN Segmentation · 802.1Q · Inter-VLAN Routing
+- Routing & Switching · NAT/PAT · DNS · DHCP
+- VPN Tunneling · Wireless Infrastructure
+- Traffic Analysis · High Availability · Failover
 
-Network Segmentation & Access Policies
+### Security & Identity
 
-Routing, Switching, NAT & PAT
+- NAC · IEEE 802.1X · RADIUS · EAP-TLS
+- Active Directory · Dynamic VLAN Assignment
+- PKI · Certificate Authorities · SSL/TLS
+- Firewall Policies · IDS/IPS · Traffic Inspection
+- Centralized Authentication · Network Hardening
 
-DNS, DHCP, ARP & Gateway Management
+### Cloud & Edge Infrastructure
 
-VPN, Tunneling & Remote Connectivity
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
-Packet Analysis & Network Troubleshooting
+| Platform | Technologies |
+| :--- | :--- |
+| AWS | ALB, ELB, ACM, Route 53, CloudShell, AWS CLI |
+| Cloudflare | Authoritative DNS, Reverse Proxy, Edge Connectivity, SSL/TLS |
+| Architecture | Load Balancing, Certificate Management, Secure Connectivity |
 
-Network Security & Identity
+### Infrastructure & Virtualization
 
-Network Access Control (NAC)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
-IEEE 802.1X, RADIUS & EAP-TLS
+- Bare-Metal & Virtualized Environments
+- Enterprise Identity Infrastructure
+- On-Premises & Cloud Integration
+- Infrastructure Redundancy & Resilience
+- Backup Architecture & Disaster Recovery
 
-Dynamic VLAN Assignment
+### Networking & Security Stack
 
-Active Directory & Centralized Authentication
+![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense&logoColor=white)
+![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
+![Huawei](https://img.shields.io/badge/Huawei-FF0000?style=flat-square&logo=huawei&logoColor=white)
+![TP-Link](https://img.shields.io/badge/TP--Link-4ACBD6?style=flat-square&logo=tplink&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
 
-Public Key Infrastructure (PKI)
+| Domain | Stack |
+| :--- | :--- |
+| Network Access Control | PacketFence, FreeRADIUS |
+| Firewall & Inspection | pfSense, Suricata, pfBlockerNG |
+| Switching & Wireless | Huawei, UniFi, TP-Link JetStream |
+| Identity Management | Active Directory, Samba AD |
+| Secure Connectivity | WireGuard, HAProxy |
+| Observability | Zabbix, ntopng, Syslog-ng |
+| Network Diagnostics | Wireshark, tcpdump, OpenSSL |
 
-SSL/TLS Certificate Management
+---
 
-Firewall Policies & Access Control
-
-Intrusion Detection & Prevention
-
-Network Isolation & Traffic Inspection
-
-Cloud & Edge Infrastructure
-
-Amazon Web Services (AWS)
-
-Application Load Balancer (ALB)
-
-Elastic Load Balancing (ELB)
-
-AWS Certificate Manager (ACM)
-
-Route 53 & DNS Management
-
-AWS CloudShell & AWS CLI
-
-TLS Certificate Lifecycle Management
-
-Load Balancer Certificate Integration
-
-Kubernetes Ingress Infrastructure
-
-Cloudflare
-
-Authoritative DNS Management
-
-Reverse Proxy & Edge Connectivity
-
-SSL/TLS & Origin Connectivity
-
-DNS Records & Domain Management
-
-HTTP/2 & HTTPS Troubleshooting
-
-Certificate Chain Validation
-
-Enterprise Infrastructure
-
-Bare-Metal Servers & Virtualization
-
-Linux & Windows Server Environments
-
-Centralized Identity & Authentication
-
-Active/Passive Infrastructure Architecture
-
-High Availability & Failover Planning
-
-On-Premises & Off-Site Backup Architecture
-
-Corporate Wireless Infrastructure
-
-Infrastructure Hardening & Access Management
-
-Network Observability
-
-Packet Capture & Traffic Analysis
-
-Network Performance Monitoring
-
-Centralized Logging & Auditing
-
-DNS Resolution Diagnostics
-
-Routing & Connectivity Analysis
-
-TLS Handshake & Certificate Validation
-
-NAT, VPN & Virtual Network Troubleshooting
-
+<sub>Network Architecture · Infrastructure · Security · Cloud</sub>
